@@ -1,7 +1,7 @@
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/h3xduck/Xing_Lib)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/h3xduck/Raw_TCP_Lib)
 ![Maintainability](https://img.shields.io/static/v1?label=maintainability&message=B&color=green)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/h3xduck/Xing_Lib)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/h3xduck/Raw_TCP)
 
 
 # Xing_Lib
