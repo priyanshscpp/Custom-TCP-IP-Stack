@@ -11,8 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Set up CMake
-      run: ./src
+  
+  
     
    
