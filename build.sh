@@ -1,13 +1,17 @@
 #!/bin/bash
 
-#The current directory full path
+#The current directory full path ==>Priyanshu Yadav Ubuntu LTS 24.04
+#This is used to get the full path of the script directory
+#and to run the script from any directory.
+
+
 declare -r DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 #A variable to determine whether to silence output of internal commands
 declare silence=$1
 
 #####################################################################
 #                                                                   #
-#   Script to build the RawTCP_Lib.                                 #
+#   Script to build the Xing_Lib.                                 #
 #                                                                   #
 #   Running instructions:                                           #
 #       chmod +x build.sh                                           #

@@ -1,3 +1,10 @@
+/*Copyright (c) 2024 @ Priyanshu Yadav */
+/*Xing TCP :- Custom TCP Project */
+
+#include <linux/ip.h>
+#include <linux/tcp.h>
+#include <arpa/inet.h>
+#include <string.h>
 #include "streamBuilder.h"
 
 stream_t build_standard_packet_stream_empty_payload(

@@ -1,3 +1,11 @@
+/*Copyright (c) 2024 @ Priyanshu Yadav */
+/*Xing TCP :- Custom TCP Project */
+
+#include <linux/ip.h>
+#include <linux/tcp.h>
+#include <arpa/inet.h>
+#include <string.h>
+#include <bits/stdc++.h>
 #include "../include/socketManager.h"
 
 int rawsocket_send(packet_t packet){

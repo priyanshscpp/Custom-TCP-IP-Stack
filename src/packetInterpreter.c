@@ -4,6 +4,14 @@
  * Function to get protocol of packet
  * 
  */ 
+/*Copyright (c) 2024 @ Priyanshu Yadav */
+/*Xing TCP :- Custom TCP Project */
+
+#include <linux/ip.h>
+#include <linux/tcp.h>
+#include <arpa/inet.h>
+#include <string.h>
+
 int get_packet_proto(char* buffer, int size){
     struct iphdr *ipheader = (struct iphdr*)buffer;
 
