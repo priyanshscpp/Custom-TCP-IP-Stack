@@ -11,13 +11,6 @@
 #include <stdlib.h>
 #include <strings.h>
 
-/**
- * IP Packet definition
- * 
- * @author h3xduck
- * @version 1.0
- * @see
- */ 
 
 typedef struct packet_t{
     struct iphdr *ipheader;
